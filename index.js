@@ -10,6 +10,9 @@ var express = require("express"),
 // });
 // cloudinary.uploader.upload("my_image.jpg", function(error, result) {console.log(result, error)});
 
+app.use(express.static(__dirname + "/public"));
+app.set('view engine','ejs');
+
 app.get("/", function(req, res){
     res.render("home.ejs");
 });

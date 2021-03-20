@@ -2,11 +2,15 @@
 <html>
     <head>
         <title>PAN</title>
-        <!-- CSS only -->
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
         <link rel="preconnect" href="https://fonts.gstatic.com">
         <link href="https://fonts.googleapis.com/css2?family=Chango&display=swap" rel="stylesheet"> 
-        <link rel="stylesheet" href="../public/stylesheet.css">
+        <!-- Bootstrap core CSS -->
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Pangolin&family=Ranchers&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+        <link rel="stylesheet" href="stylesheet.css">
     </head>
     <body>
         <!-- navbar -->
@@ -16,46 +20,79 @@
                 <a class="navbar-brand d-flex flex-row-reverse" id="contactNav" href="/">Contact Us</a>    
             </div>    
         </nav>
-        <div class="container">
+
+        <!-- <div class="container" id="carousal">
+            <div id="carouselExampleControlsNoTouching" class="carousel slide" data-bs-touch="false" data-bs-interval="false">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="https://images.pexels.com/photos/1002703/pexels-photo-1002703.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="https://images.pexels.com/photos/1108572/pexels-photo-1108572.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="https://images.pexels.com/photos/886521/pexels-photo-886521.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" class="d-block w-100" alt="...">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControlsNoTouching" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControlsNoTouching" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div> -->
+        
+        <!-- <script>
+            var myCarousel = document.querySelector('#myCarousel');
+            var carousel = new bootstrap.Carousel(slide.bs.carousel, {
+                interval: 2000,
+                wrap: false
+            });
+        </script> -->
+
+        <div class="container" id="container">
             <!-- courosel -->
 
             <!-- content -->
             
-            <center><h1 id="head">What We Do?</h1></center>
-            <ul>
-                <li>
+            <center><h1 class="head">What We Do  <i class="fas fa-question-circle"></i></h1></center>
+            <ul class="content shadow-lg p-3 mb-5 bg-body rounded">
+                <li><i class="far fa-hand-point-right"></i>
                     Environmental Clearance (Fresh / Amendment / Expansion / Re-validation) from SEIAA, Maharashtra, MOEF and other states 
                 </li>
-                <li>
+                <li><i class="far fa-hand-point-right"></i>
                     Environmental Impact Assessment report including baseline monitoring
                 </li>
-                <li>
+                <li><i class="far fa-hand-point-right"></i>
                     Terms of Reference application 
                 </li>
-                <li>
+                <li><i class="far fa-hand-point-right"></i>
                     Consent to Establish, Operate, Renewal etc. from Maharashtra Pollution Control Board (MPCB)
                 </li>
-                <li>
+                <li><i class="far fa-hand-point-right"></i>
                     Six monthly Compliance and Monitoring report to Nagpur, Env. Dept, MPCB
                 </li>
-                <li>
+                <li><i class="far fa-hand-point-right"></i>
                     Compliance RO-Certification from MoEF, Nagpur Division
                 </li>
-                <li>
+                <li><i class="far fa-hand-point-right"></i>
                     Central Ground Water Authority (CGWA) NOC
                 </li>
-                <li>
+                <li><i class="far fa-hand-point-right"></i>
                     Preparation of Environmental Status report as require by Corporations.
                 </li>
-                <li>
+                <li><i class="far fa-hand-point-right"></i>
                     Safety audit
                 </li>
-                <li>
+                <li><i class="far fa-hand-point-right"></i>
                     Factory liaisons 
                 </li>
-                <li>
+                <li><i class="far fa-hand-point-right"></i>
+                    Online form submission :
                     <ul>
-                        <h6>Online form submission </h6>
                         <li>Consent Application </li>
                         <li>Hazardous Waste Applications</li>    
                         <li>Plastic related applications</li>     
@@ -71,164 +108,176 @@
                 </li>
             </ul>
 
-            <center><h1>Our Expertise</h1></center>
-            <ul>
-                <li>
+            <center><h1 class="head"><i class="fas fa-graduation-cap"></i> Our Expertise</h1></center>
+            <ul class="content shadow-lg p-3 mb-5 bg-body rounded">
+                <li><i class="far fa-hand-point-right"></i>
                     To get an Environmental clearance from component authority for Building Construction projects, Area Development and Township projects, Hospital Projects, Commercial project likes offices, shops, Hubs, Malls, Market and IT projects etc. Also have an experience to getting the EC for industry project like Synthetic Organic, Distilleries, Sugar, Thermal Power plants, Cement and grinding sector, waste management sector 
                 </li>
-                <li>
+                <li><i class="far fa-hand-point-right"></i>
                     To do the Environmental Impact Assessment studies including baseline monitoring  which is part of Environmental Clearance procedure as per EIA Notification
                 </li>
-                <li>
+                <li><i class="far fa-hand-point-right"></i>
                     To prepare the Assessment of ecological damage assessment report, including remediation plan and natural and community resource augmentation plan
                 </li>
-                <li>
+                <li><i class="far fa-hand-point-right"></i>
                     To prepare the Approach paper issued by SEIAA – Maharashtra State and follow the Guideline issued by MoEF&CC 
                 </li>
-                <li>
+                <li><i class="far fa-hand-point-right"></i>
                     To prepare the Environmental Management Plan & report, Waste Management plan including municipal solid waste, Bio Medical waste, Hazardous waste and Debris management plan  & report, Environmental Status report, Disaster management plan & report etc.
                 </li>
-                <li>
+                <li><i class="far fa-hand-point-right"></i>
                     To prepare and submit the compliance and monitoring report for EC and consent condition.
                 </li>
-                <li>
+                <li><i class="far fa-hand-point-right"></i>
                     To do, safety audit, Factory Licenses, submission of forms comes under Air, Water Act & Rules and Hazardous Rules .
                 </li>
-                <li>
+                <li><i class="far fa-hand-point-right"></i>
                     Expertise in handling the project independently and with a good sense of communication with the client. 
                 </li>
             </ul>
             
-            <center><h1>Our commitment to our clients</h1></center>
-            <ul>
-                <li>We provide technical support and quality service while handling project and presenting before respective committees. </li>
-                <li>We provide the whole assistance during project coordination up to completion of work</li>
-                <li>We will give assurance about the project completion time frame and target to be completed as decided </li>
-                <li>We give our 100% affords for completion of project </li>
-                <li>We are tying to reach and set the Goal.</li>
-                <li>Customer satisfaction related to project handling and clearance process is our first commitment </li>
-                <li>We are committed to fulfilling these needs and building long-term customer loyalty</li>
-                <li>We always welcomes to customers comments, complaints, suggestions and feedback</li>
-                <li>We are good in team work and having well developed skill in communication   </li>
+            <center><h1 class="head"><i class="far fa-handshake"></i>    Our Commitment To Our Clients</h1></center>
+            <ul class="content shadow-lg p-3 mb-5 bg-body rounded">
+                <li><i class="far fa-hand-point-right"></i>We provide technical support and quality service while handling project and presenting before respective committees. </li>
+                <li><i class="far fa-hand-point-right"></i>We provide the whole assistance during project coordination up to completion of work</li>
+                <li><i class="far fa-hand-point-right"></i>We will give assurance about the project completion time frame and target to be completed as decided </li>
+                <li><i class="far fa-hand-point-right"></i>We give our 100% affords for completion of project </li>
+                <li><i class="far fa-hand-point-right"></i>We are tying to reach and set the Goal.</li>
+                <li><i class="far fa-hand-point-right"></i>Customer satisfaction related to project handling and clearance process is our first commitment </li>
+                <li><i class="far fa-hand-point-right"></i>We are committed to fulfilling these needs and building long-term customer loyalty</li>
+                <li><i class="far fa-hand-point-right"></i>We always welcomes to customers comments, complaints, suggestions and feedback</li>
+                <li><i class="far fa-hand-point-right"></i>We are good in team work and having well developed skill in communication   </li>
             </ul>
 
-            <center><h1>Work Experience</h1></center>
-            <ul>
-                <li>New proposed, expansion, Amendment, Re-validation - having BUA area below 1,50,000 m2 and above 1,50,000 m2.</li>
-                <li>Residential & Commercial projects were comes under difference corporations more than 100 projects </li>
-                <li>Township development and Area Development projects having BUA area above 1,50,000 m2 more than 30 projects </li>
-                <li>Commercial projects, Hospital projects, IT projects, Mall etc more than 40 projects </li>
-                <li>Violation projects comers under Environmental (Protection) Act, 1986 and MoEF Notification dated 14th March 2017 and its amendments than 5 projects. </li>
+            <center><h1 class="head">Work Experience   <i class="fas fa-user-edit"></i></h1></center>
+            <ul class="content shadow-lg p-3 mb-5 bg-body rounded">
+                <li><i class="far fa-hand-point-right"></i>New proposed, expansion, Amendment, Re-validation - having BUA area below 1,50,000 m2 and above 1,50,000 m2.</li>
+                <li><i class="far fa-hand-point-right"></i>Residential & Commercial projects were comes under difference corporations more than 100 projects </li>
+                <li><i class="far fa-hand-point-right"></i>Township development and Area Development projects having BUA area above 1,50,000 m2 more than 30 projects </li>
+                <li><i class="far fa-hand-point-right"></i>Commercial projects, Hospital projects, IT projects, Mall etc more than 40 projects </li>
+                <li><i class="far fa-hand-point-right"></i>Violation projects comers under Environmental (Protection) Act, 1986 and MoEF Notification dated 14th March 2017 and its amendments than 5 projects. </li>
 
             </ul>
 
-            <center><h1>Other Associates consultants</h1></center>
-            <ul>
-                <li>
+            <center><h1 class="head"> <i class="fas fa-users"></i>Other Associates Consultants</h1></center>
+            <ul class="content shadow-lg p-3 mb-5 bg-body rounded">
+                <li><i class="far fa-hand-point-right"></i>
                     Architect – Design and  Interior designer 
                 </li>
-                <li>
+                <li><i class="far fa-hand-point-right"></i>
                     Mechanical, Electrical and Plumbing (MEP)
                 </li>
-                <li>
+                <li><i class="far fa-hand-point-right"></i>
                     Sewage Treatment Plan (STP)
                 </li>
-                <li>
+                <li><i class="far fa-hand-point-right"></i>
                     Organic Waste Composter (OWC) 
                 </li>
-                <li>
+                <li><i class="far fa-hand-point-right"></i>
                     Geo-hydrological study 
                 </li>
-                <li>
+                <li><i class="far fa-hand-point-right"></i>
                     Strom Water and Rain Water study 
                 </li>
-                <li>
+                <li><i class="far fa-hand-point-right"></i>
                     Landscape Architect  
                 </li>
-                <li>
+                <li><i class="far fa-hand-point-right"></i>
                     Energy Conservation Building Codes (ECBC)
                 </li>
-                <li>
+                <li><i class="far fa-hand-point-right"></i>
                     Carbon Footprint analysis
                 </li>
-                <li>
+                <li><i class="far fa-hand-point-right"></i>
                     Traffic study
                 </li>
-                <li>
+                <li><i class="far fa-hand-point-right"></i>
                     Laboratory services – Analytical  and Monitoring
                 </li>
-                <li>
+                <li><i class="far fa-hand-point-right"></i>
                     Follow up technical team
                 </li>
-                <li>
+                <li><i class="far fa-hand-point-right"></i>
                     NOC - Aviation
                 </li>
-                <li>
+                <li><i class="far fa-hand-point-right"></i>
                     IGBC / GRIHA / LEED 
                 </li>
-                <li>
+                <li><i class="far fa-hand-point-right"></i>
                     Service provider - Solar panel
                 </li>
             </ul>
 
-            <center><h1>About Us</h1></center>
-            <ul>
-                <li>
+            <center class="head"><h1>About Us  <i class="far fa-smile-beam"></i></h1></center>
+            <ul  class="content shadow-lg p-3 mb-5 bg-body rounded">
+                <li><i class="far fa-hand-point-right"></i>
                     We have since our formation in 2018 in Environmental Consultancy cervices 
                 </li>
-                <li>
+                <li><i class="far fa-hand-point-right"></i>
                     We have an experience to deal with Environmental related issues, Clearance work at Ministry of Environment and Forest & Climate Change, Delhi (MoEF&CC),  State Environmental Impact Assessment Authority (SEIAA) and State Expert Appraisal Committee (SEAC) under EIA Notification 2006 and its amendments as per Environmental (Protection) Act, 1986
                 </li>
-                <li>
+                <li><i class="far fa-hand-point-right"></i>
                     Also we have an experience to deal with consent related issues at Maharashtra Pollution Control Board (MPCB) under the Water (P&CP) Act, 1974, Air (Prevention and Control of Pollution) Act, 1981, Water (Cess) Act, 1977, Authorization under Rule 6 of the Hazardous & Other Wastes (M &  T M ) Rules 2016
                 </li>
-                <li>
+                <li><i class="far fa-hand-point-right"></i>
                     We have an experience to deal the legal aspect under the National Green Tribunal (NGT) Act, 2010
                 </li>
-                <li>
+                <li><i class="far fa-hand-point-right"></i>
                     Having knowledge related EIA notifications, Rules, Circulars, Office Memorandum and Acts etc., 
                 </li>
-                <li>
+                <li><i class="far fa-hand-point-right"></i>
                     Well knowledge of the environmental clearance process, issues related to environmental concerns. 
                 </li>
             </ul>
 
-            <center><h1 id="contact">Contact Us</h1></center>
-            <ul>
-                <li>
-                    For any enquiry/information  : Kindly give a call on + 91-9594076605/+91-9970405605 in office Timing : 10 am to 6 pm
-                </li>
-                <li>
-                    Also write to us for any assistance on :pangreenfieldenviro@gmail.com and bagul_Pradnya@rediffmail.com
-                </li>
-            </ul>
-
-            <center><h1>Key Person</h1>
+            <center><h1 class="head">Key Person</h1>
                 <!-- <img src="https://res.cloudinary.com/dnmsyfrgs/image/upload/v1616237378/pradnya_maushi_a08byc.png" class="img-thumbnail" alt="..."> -->
-                <div class="row">
+                <div class="row row-cols-1 row-cols-md-3 g-4">
                     <div class="col-md-6">
-                        <p>Mrs. Pradnya A Niphade<br>
-                            Experience -  15 years <br>
-                            NABET Accredited EC Coordinator - 38 39 & 21 Sector <br>
-                            NABET Accredited FAE – SW, WP & RH <br>
-                            Email : bagul_pradnya@rediffmail.com , pangreenfiledenviro@gmail.com<br>
-                            Mob : +91-95940-76605<br>
-                            Location : Thane 
-                        </p>
+                      <div class="card h-100 keyPerson shadow-lg p-3 mb-5 bg-body rounded">
+                        <div class="card-body">
+                            <h5 class="card-title">Mrs. Pradnya A Niphade</h5>
+                            <p class="card-text">
+                                Experience -  15 years <br>
+                                NABET Accredited EC Coordinator - 38 39 & 21 Sector <br>
+                                NABET Accredited FAE – SW, WP & RH <br>
+                                Email : bagul_pradnya@rediffmail.com , pangreenfiledenviro@gmail.com<br>
+                                Mob : +91-95940-76605<br>
+                                Location : Thane 
+                            </p>
+                        </div>
+                      </div>
                     </div>
                     <div class="col-md-6">
-                        <p>Mrs. Surekha M Kadam<br>
-                            Experience -  10 years <br>
-                            NABET Accredited EC Coordinator – 38 sector<br>
-                            NABET Accredited FAE – SHW, WP & LU<br>
-                            Email : pangreenfiledenviro@gmail.com<br>
-                            Mob : +91-99704-05605<br>
-                            Location : Pune<br>
-                            Addredd : Tanish Pearls , A Building Flat No. 203, 2nd floor, Charoli Phata Charholi Khurd - Pune - 412105
-                        </p>
+                      <div class="card h-100 keyPerson shadow-lg p-3 mb-5 bg-body rounded">
+                        <div class="card-body">
+                            <h5 class="card-title">Mrs. Surekha M Kadam</h5>
+                            <p class="card-text">
+                                Experience -  10 years <br>
+                                NABET Accredited EC Coordinator – 38 sector<br>
+                                NABET Accredited FAE – SHW, WP & LU<br>
+                                Email : pangreenfiledenviro@gmail.com<br>
+                                Mob : +91-99704-05605<br>
+                                Location : Pune<br>
+                                Addredd : Tanish Pearls , A Building Flat No. 203, 2nd floor, Charoli Phata Charholi Khurd - Pune - 412105
+                            </p>
+                        </div>
+                      </div>
                     </div>
-                  </div>
-                </center>
+                </div>
+            </center>
+
+            <center class="head"><h1 id="contact">Contact Us</h1></center>
+            <center>
+                <ul>
+                    <li>
+                        For any enquiry/information  : Kindly give a call on + 91-9594076605/+91-9970405605 in office Timing : 10 am to 6 pm
+                    </li>
+                    <li>
+                        Also write to us for any assistance on : pangreenfieldenviro@gmail.com and bagul_Pradnya@rediffmail.com
+                    </li>
+                </ul>
+            </center>
 
         </div>
 
