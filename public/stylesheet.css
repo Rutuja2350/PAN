@@ -1,0 +1,17 @@
+body{
+    background-color:yellow;
+    font-family: 'Chango', cursive;
+    /* background-color: #8484bd;
+    background-image: url("https://www.transparenttextures.com/patterns/3px-tile.png"); */
+}
+
+#head{
+    color: brown;
+}
+
+/* #carouselExampleIndicators {
+    width: 90%;
+    height: 50%;
+    margin-inline-end: 0%;
+    padding-left: 7rem;
+} */
