@@ -2,14 +2,30 @@ body{
     background:lavender; 
     background-image: url("https://www.transparenttextures.com/patterns/diagonales-decalees.png");
     word-spacing: .2rem;
-    font-family: 'Pangolin', cursive;
+    font-family: 'Nunito Sans', sans-serif;
     font-size: 1.5rem;
 }
 
+html {
+    scroll-behavior: smooth;
+  }
+
 .head{
-    font-family: 'Ranchers', cursive;
+    font-family: 'Acme', sans-serif;
     padding-top: 5rem;
     color: rgb(242, 22, 77);
+}
+
+.contactNav{
+    padding-left: 2rem;
+    color: white;
+}
+
+#panHead{
+    font-family: 'Changa', sans-serif;
+    font-size: 5rem; 
+    color: rgb(242, 22, 77);;
+    padding: 5rem;
 }
 
 ul {
