@@ -1,9 +1,9 @@
 body{
-    background:lavender; 
+    background:white; 
     background-image: url("https://www.transparenttextures.com/patterns/diagonales-decalees.png");
     word-spacing: .2rem;
     font-family: 'Nunito Sans', sans-serif;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
 }
 
 html {
@@ -13,7 +13,7 @@ html {
 .head{
     font-family: 'Acme', sans-serif;
     padding-top: 5rem;
-    color: rgb(242, 22, 77);
+    color: rgb(192,0,0);
 }
 
 .contactNav{
@@ -33,11 +33,11 @@ ul {
 }
 
 .content{
-    background: #E9E4F0;
+    background: whitesmoke;
 }
 
 .keyPerson{
-    background-color: lavender;
+    background-color: white;
     background-image: url("https://www.transparenttextures.com/patterns/diagonales-decalees.png");
 }
 
@@ -49,7 +49,11 @@ ul {
 }
 
 .sptext{
-    color: blueviolet;
+    color: rgb(71,109,45);;
     font-family: 'Lobster', cursive;
     font-size: 2rem;
 }
+
+a:hover {
+    color: white;
+  }

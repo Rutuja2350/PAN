@@ -14,7 +14,19 @@ app.use(express.static(__dirname + "/public"));
 app.set('view engine','ejs');
 
 app.get("/", function(req, res){
-    res.render("home.ejs");
+    res.render("home");
+});
+
+app.get("/contactUs", function(req, res){
+    res.render("contactus");
+});
+
+app.get("/aboutUs", function(req, res){
+    res.render("aboutus");
+});
+
+app.get("/associates", function(req, res){
+    res.render("associates");
 });
 
 var port = process.env.PORT || 5000;
