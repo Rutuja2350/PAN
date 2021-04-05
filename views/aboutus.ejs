@@ -1,8 +1,72 @@
-<%- include ("../public/header") %>
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>PAN</title>
+
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Chango&display=swap" rel="stylesheet"> 
+        <!-- Bootstrap core CSS -->
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Pangolin&family=Ranchers&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Acme&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Changa:wght@300&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="stylesheet.css">
+
+    </head>
+    <body style='background-image: url("https://www.transparenttextures.com/patterns/diagonales-decalees.png");
+                    word-spacing: .2rem;
+                    font-family: "Nunito Sans", sans-serif;
+                    font-size: 1.2rem;'>
+        <div class="parallax">
+        <!-- navbar -->
+        <nav class="navbar navbar-dark bg-dark sticky-top">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="/">
+                    <img src="https://res.cloudinary.com/dnmsyfrgs/image/upload/v1617212410/logo1_nlo0w3.png" height="50" width="50">
+                    PAN
+                </a>
+                <span class="navbar-brand d-flex flex-row-reverse">
+                    <li class="nav-item dropdown" style="list-style-type:none;">
+                        <a class="dropdown-toggle contactNav" style="color: white;" id="nav_links" href="/aboutUs" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            About Us
+                        </a>
+                        <div class="dropdown-menu" id="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <a class="dropdown-item" href="/aboutUs/#aboutus" id="nav_links">About Us</a>
+                            <a class="dropdown-item" href="/aboutUs/#experience" id="nav_links">Experience</a>
+                            <a class="dropdown-item" href="/aboutUs/#whatwedo" id="nav_links">What we do</a>                                
+                            <a class="dropdown-item" href="/aboutUs/#expertise" id="nav_links">Expertise</a>
+                            <a class="dropdown-item" href="/aboutUs/#commitment" id="nav_links">Commitment</a>
+                        </div>
+                        <a class="contactNav"  id="nav_links" href="/associates" style="color: white; padding-left: 2rem;">
+                            Associates
+                        </a>
+                        <a class="contactNav"  id="nav_links" href="/contactUs" style="color: white; padding-left: 2rem;">
+                            Contact Us
+                        </a>
+                    </li>
+            </div>    
+        </nav>
+
+
+
 
 <div class="container" style="padding-bottom: 5rem">
+
+    <div id="aboutus" style="height: 500; padding-bottom: 5rem;"></div>
     <center class="head"><h1>About Us  <i class="far fa-smile-beam"></i></h1></center>
-    <ul  class="content shadow-lg p-3 mb-5 bg-body rounded">
+    <ul  class="content shadow-lg p-3 mb-5 bg-body rounded" style="list-style-type:none;">
         <li><i class="fas fa-caret-right"></i>
             We are in Environmental Consultancy services since 2018. 
         </li>
@@ -18,13 +82,14 @@
         <li><i class="fas fa-caret-right"></i>
             Having knowledge related EIA notifications, Rules, Circulars, Office Memorandum and Acts etc., 
         </li>
-        <li><i class="fas fa-caret-right"></i>
+        <li id="experience"><i class="fas fa-caret-right"></i>
             Well knowledge of the environmental clearance process, issues related to environmental concerns. 
         </li>
     </ul>   
 
+
     <center><h1 class="head">Work Experience   <i class="fas fa-user-edit"></i></h1></center>
-    <ul class="content shadow-lg p-3 mb-5 bg-body rounded">
+    <ul class="content shadow-lg p-3 mb-5 bg-body rounded" style="list-style-type:none;">
         <li><i class="fas fa-caret-right"></i> 
             New proposed, expansion, Amendment, Re-validation - having BUA area below 1,50,000 m2 and above 1,50,000 m2.
         </li>
@@ -37,13 +102,14 @@
         <li><i class="fas fa-caret-right"></i> 
             Commercial projects, Hospital projects, IT projects, Mall etc. 
         </li>
-        <li><i class="fas fa-caret-right"></i> 
+        <li id="whatwedo"><i class="fas fa-caret-right"></i> 
             Violation projects comers under Environmental (Protection) Act, 1986 and MoEF Notification dated 14th March 2017 and its amendments. 
         </li>
     </ul>
 
+
     <center><h1 class="head">What We Do  <i class="fas fa-question-circle"></i></h1></center>
-    <ul class="content shadow-lg p-3 mb-5 bg-body rounded">
+    <ul class="content shadow-lg p-3 mb-5 bg-body rounded" style="list-style-type:none;">
         <li><i class="fas fa-caret-right"></i> 
             Environmental Clearance 
         </li>
@@ -95,13 +161,15 @@
                 <li>- Environment Statement – Form V</li>
                 <li>- Water cess</li>
                 <li>- Construction & Demolition Applications</li>
-                <li>- Other application as applicable under Act</li>
+                <li id="expertise">- Other application as applicable under Act</li>
             </ul>
         </li>
     </ul>
+  
+
 
     <center><h1 class="head"><i class="fas fa-graduation-cap"></i> Our Expertise</h1></center>
-    <ul class="content shadow-lg p-3 mb-5 bg-body rounded">
+    <ul class="content shadow-lg p-3 mb-5 bg-body rounded" style="list-style-type:none;">
         <li><i class="fas fa-caret-right"></i> 
             To get an Environmental clearance for various sector’s  
         </li>
@@ -114,13 +182,14 @@
         <li><i class="fas fa-caret-right"></i> 
             To do the Environmental Management Plan report, Waste Management plan including municipal solid waste, Bio Medical waste, Hazardous waste and Debris management plan  & report, Environmental Status report, Disaster management plan & report etc.
         </li>
-        <li><i class="fas fa-caret-right"></i> 
+        <li id="commitment"><i class="fas fa-caret-right"></i> 
             To do compliance and monitoring report 
         </li>
     </ul>
 
+
     <center><h1 class="head"><i class="far fa-handshake"></i> Our Commitment</h1></center>
-    <ul class="content shadow-lg p-3 mb-5 bg-body rounded">
+    <ul class="content shadow-lg p-3 mb-5 bg-body rounded" style="list-style-type:none;">
         <li><i class="fas fa-caret-right"></i> 
             We provide technical support and quality service while handling project and presenting before respective committees. 
         </li>
@@ -146,6 +215,7 @@
             We always welcomes to customers comments, complaints, suggestions and feedback
         </li>
     </ul>
+
 </div>
 
 <%- include ("../public/footer") %>

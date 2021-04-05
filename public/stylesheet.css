@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth;
+}
+
 body{
     background:white; 
     background-image: url("https://www.transparenttextures.com/patterns/diagonales-decalees.png");
@@ -5,10 +9,6 @@ body{
     font-family: 'Nunito Sans', sans-serif;
     font-size: 1.2rem;
 }
-
-html {
-    scroll-behavior: smooth;
-  }
 
 .head{
     font-family: 'Acme', sans-serif;
@@ -56,4 +56,18 @@ ul {
 
 a:hover {
     color: white;
-  }
+}
+
+
+  /* parallax */
+/* .parallax {
+
+  background-image: url("https://res.cloudinary.com/dnmsyfrgs/image/upload/v1617457797/a1_nqkpgj.png");
+
+  min-height: 500px;
+
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+} */
