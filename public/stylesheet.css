@@ -1,15 +1,31 @@
+html {
+    scroll-behavior: smooth;
+}
+
 body{
-    background:lavender; 
+    background:white; 
     background-image: url("https://www.transparenttextures.com/patterns/diagonales-decalees.png");
     word-spacing: .2rem;
-    font-family: 'Pangolin', cursive;
-    font-size: 1.5rem;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 1.2rem;
 }
 
 .head{
-    font-family: 'Ranchers', cursive;
+    font-family: 'Acme', sans-serif;
     padding-top: 5rem;
-    color: rgb(242, 22, 77);
+    color: rgb(192,0,0);
+}
+
+.contactNav{
+    padding-left: 2rem;
+    color: white;
+}
+
+#panHead{
+    font-family: 'Changa', sans-serif;
+    font-size: 5rem; 
+    color: rgb(242, 22, 77);;
+    padding: 5rem;
 }
 
 ul {
@@ -17,23 +33,41 @@ ul {
 }
 
 .content{
-    background: #E9E4F0;
+    background: whitesmoke;
 }
 
 .keyPerson{
-    background-color: lavender;
+    background-color: white;
     background-image: url("https://www.transparenttextures.com/patterns/diagonales-decalees.png");
 }
 
 .carousel-inner img {
-    padding-top: 5rem;
+    padding-top: 1rem;
     padding-bottom: 4rem;
     height: 30rem;
     margin-inline-end: 0%;
 }
 
 .sptext{
-    color: blueviolet;
+    color: rgb(71,109,45);;
     font-family: 'Lobster', cursive;
     font-size: 2rem;
 }
+
+a:hover {
+    color: white;
+}
+
+
+  /* parallax */
+/* .parallax {
+
+  background-image: url("https://res.cloudinary.com/dnmsyfrgs/image/upload/v1617457797/a1_nqkpgj.png");
+
+  min-height: 500px;
+
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+} */
