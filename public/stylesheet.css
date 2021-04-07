@@ -3,42 +3,11 @@ html {
 }
 
 body{
-    background:white; 
-    background-image: url("https://www.transparenttextures.com/patterns/diagonales-decalees.png");
+    /* background:white; 
+    background-image: url("https://www.transparenttextures.com/patterns/diagonales-decalees.png"); */
     word-spacing: .2rem;
     font-family: 'Nunito Sans', sans-serif;
     font-size: 1.2rem;
-}
-
-.head{
-    font-family: 'Acme', sans-serif;
-    padding-top: 5rem;
-    color: rgb(192,0,0);
-}
-
-.contactNav{
-    padding-left: 2rem;
-    color: white;
-}
-
-#panHead{
-    font-family: 'Changa', sans-serif;
-    font-size: 5rem; 
-    color: rgb(242, 22, 77);;
-    padding: 5rem;
-}
-
-ul {
-    list-style-type: none;
-}
-
-.content{
-    background: whitesmoke;
-}
-
-.keyPerson{
-    background-color: white;
-    background-image: url("https://www.transparenttextures.com/patterns/diagonales-decalees.png");
 }
 
 .carousel-inner img {
@@ -48,26 +17,127 @@ ul {
     margin-inline-end: 0%;
 }
 
+.cimg{
+    height: 100px;
+}
+
+.head{
+    padding-top: 5rem;
+}
+
+.card{
+    background-color: unset;
+}
+
+.active, a:hover{
+    color: white;
+    text-decoration: none;
+}
+
+.contactNav{
+    padding-left: 2rem;
+    color: white;
+}
+
+#panHead{
+    font-family: 'Changa', sans-serif;
+    font-size: 7rem; 
+}
+
+ul {
+    list-style-type: none;
+}
+
+/* .content{
+    background: whitesmoke;
+} */
+
+
+.carousel-inner img {
+    padding-top: 1rem;
+    padding-bottom: 4rem;
+    height: 30rem;
+    margin-inline-end: 0%;
+}
+
 .sptext{
-    color: rgb(71,109,45);;
+    color: rgb(71,109,45);
     font-family: 'Lobster', cursive;
     font-size: 2rem;
 }
 
-a:hover {
-    color: white;
+a{
+    color: unset;
 }
 
+a:hover {
+    text-decoration: none; 
+}
+
+.zoom:hover{
+    transform: scale(1.2);
+}
+
+.button.navbar-toggler{
+    padding: 0;
+}
+
+#homebackground{
+    background-image: url('https://res.cloudinary.com/dnmsyfrgs/image/upload/v1617711778/background1_kgcssq.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 43.5rem;
+}
+
+#onimgtext{
+    color: white; 
+    font-weight: 500; 
+    font-size: 1.6rem;
+    font-weight: 700;
+    letter-spacing: .2rem;
+}
+
+.btn-danger{
+    border-radius: 25px;
+    font-size: 1.5rem;
+    margin-bottom: 3rem;
+    margin-top: 6%;
+    padding: .5rem 1rem .5rem 1rem;
+    border-color: rgb(192,0,0);
+    background-color: rgb(192,0,0);
+}
+
+#homecolumns{
+    padding-left: 2.3rem;
+    padding-right: 2.3rem;
+    padding-bottom: 4rem;
+    padding-top: 2rem;
+}
+
+#homeicon{
+    color: rgb(192,0,0);
+    font-size: 3rem;
+    padding-bottom: 1.5rem;
+}
+
+.card-title{
+    color: rgb(71,109,45);
+    font-size: 2rem;
+}
+
+.card-body{
+    color: black;
+}
 
   /* parallax */
-/* .parallax {
-
-  background-image: url("https://res.cloudinary.com/dnmsyfrgs/image/upload/v1617457797/a1_nqkpgj.png");
-
-  min-height: 500px;
-
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-} */
+  .parallax {
+    background-image: url("https://img.rawpixel.com/s3fs-private/rawpixel_images/website_content/v936-background-adj-08.jpg?w=1000&dpr=1&fit=default&crop=default&q=65&vib=3&con=3&usm=15&bg=F4F4F3&ixlib=js-2.2.1&s=d2bdd5548a96d8f2918a09915618b6b8");
+    min-height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: unset;
+    padding-right: 10%; 
+    padding-left: 10%;
+}

@@ -1,78 +1,104 @@
 <%- include ("../public/header") %>
 
-        <div class="container" style="padding-bottom: 5rem;">
-
+        <div id="homebackground">
             <div>
                 <center>
-                    <span id="panHead">
-                    <span style="color: rgb(192,0,0);">PAN</span> <span style="color: rgb(71,109,45);">GREEN FIELD ENVIRO</span><br>
-                    </span>
-                    <marquee behavior="scroll" direction="left">Quality is never an accident. It is always the result of intelligent effort.</marquee>
-                </center>
-            </div>
-
-            <!-- courosel -->
-            <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
-                <div class="carousel-inner">
-                    <div class="carousel-item active">
-                        <img class="d-block w-100" src="https://res.cloudinary.com/dnmsyfrgs/image/upload/v1617455750/11_h2fkz6.png" alt="Third slide">
-                    </div>                   
-                    <div class="carousel-item carousal">
-                        <img class="d-block w-100" src="https://res.cloudinary.com/dnmsyfrgs/image/upload/v1617455750/22_ndjnbk.png" alt="Third slide">
+                    <div id="panHead">
+                        <span style="color: rgb(192,0,0); text-shadow: 0 0 3px white, 0 0 5px white;">
+                            PAN
+                        </span> 
+                        <span style="color: rgb(71,109,45); text-shadow: 0 0 3px white, 0 0 5px white; ">
+                            GREEN FIELD ENVIRO
+                        </span>
                     </div>
-                    <div class="carousel-item carousal">
-                        <img class="d-block w-100" src="https://res.cloudinary.com/dnmsyfrgs/image/upload/v1617455750/33_marxbr.png" alt="Third slide">
+                    <p style="color: white; font-size: 3rem;">
+                        Environmental Consultancy Services
+                    </p>
+                    <marquee behavior="scroll" direction="left" style="color: white; font-size: 1.4rem;">
+                        Quality is never an accident. It is always the result of intelligent effort.
+                    </marquee>
+                    <div class="w3-container w3-center w3-animate-zoom" style="margin-top: 5rem;">
+                        <p id="onimgtext">What we do ?<br>
+                            We help you getting NOC & Clearance from component authorities.
+                        </p>
                     </div>
-                    <div class="carousel-item carousal">
-                        <img class="d-block w-100" src="https://res.cloudinary.com/dnmsyfrgs/image/upload/v1617455750/44_cg1zhb.png" alt="Third slide">
-                    </div>
-                    <div class="carousel-item carousal">
-                        <img class="d-block w-100" src="https://res.cloudinary.com/dnmsyfrgs/image/upload/v1617455750/55_h0twc7.png" alt="Third slide">
-                    </div>
-                    <div class="carousel-item carousal">
-                        <img class="d-block w-100" src="https://res.cloudinary.com/dnmsyfrgs/image/upload/v1617455752/66_bynm01.png" alt="Third slide">
-                    </div>
-                    <div class="carousel-item carousal">
-                        <img class="d-block w-100" src="https://res.cloudinary.com/dnmsyfrgs/image/upload/v1617455751/77_t90azx.png" alt="Second slide">
-                    </div>
-                    <div class="carousel-item carousal">
-                        <img class="d-block w-100" src="https://res.cloudinary.com/dnmsyfrgs/image/upload/v1617455751/88_shmumq.png" alt="Third slide">
-                    </div>
-                    <div class="carousel-item carousal">
-                        <img class="d-block w-100" src="https://res.cloudinary.com/dnmsyfrgs/image/upload/v1617455751/99_hkue8b.png" alt="Third slide">
-                    </div> 
-                    <div class="carousel-item carousal">
-                        <img class="d-block w-100" src="https://res.cloudinary.com/dnmsyfrgs/image/upload/v1617460287/1010_gm8vg5.png" alt="Third slide">
-                    </div> 
-                    
-                </div>
-                <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="sr-only">Previous</span>
-                </a>
-                <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="sr-only">Next</span>
-                </a>
-            </div>
-
-            <div>
-                <center>
-                <p>
-                    <span style="font-size: 1.5rem; color: #0b4242;">
-                        Environmental Consultancy Services <br>
-                        Company Registration - 1810200312198599 <br>
-                        MSME - UDYAM-MH-33-0047229 <br>
-                        Registered Address : 402, Sheetal Niwas Building,  Ram Maruti Road,
-                        <br>  Naupada Road, Near Bedekar Hospital, Thane West - 400602
-                    </span>
-                </p>
+                    <a role="button" href="/aboutus" class="btn btn-danger">About Us</a>
                 </center>
             </div>
         </div> 
 
-        <div style="background-color: #0F2027; color: white; padding-bottom: 3rem;">
-            <center class="head"><h1 id="contact">Contact Us <i class="fas fa-phone"></i></h1></center>
+        <div style="padding-top: 3rem;">
+            <center>
+            <p>
+                <span style="font-size: 1.5rem; color: #093131;">
+                    <span style="font-weight: bold;">PAN GREEN FIELD ENVIRO</span><br>
+                    Environmental Consultancy Services <br>
+                    Company Registration - 1810200312198599 <br>
+                    MSME - UDYAM-MH-33-0047229 <br>
+                    Registered Address : 402, Sheetal Niwas Building,  Ram Maruti Road,
+                    <br>  Naupada Road, Near Bedekar Hospital, Thane West - 400602
+                </span>
+            </p>
+            </center>
+        </div>
+
+        <center>
+        <div class="row row-cols-1 row-cols-md-4 g-4" style="padding-top: 10rem;" id="homecolumns">
+            <a href="/aboutUs/#experience">
+                <div class="col zoom">
+                    <div class="h-100">
+                        <div class="card-body">
+                            <i class="fas fa-user-edit" id="homeicon"></i>
+                            <h5 class="card-title">Experience</h5>
+                            <p class="card-text">Building construction, Residential & Township, Commercial, Hospital, IT, Mall, Industry etc.</p>
+                            <button type="button" class="btn btn-outline-success">Read More</button>
+                        </div>
+                    </div>
+                </div>
+            </a>
+            <a href="/aboutUs/#whatwedo">
+                <div class="col zoom">
+                    <div class="h-100">
+                        <div class="card-body">
+                            <i class="fas fa-question-circle" id="homeicon"></i>
+                            <h5 class="card-title">What we do?</h5>
+                            <p class="card-text">EC EIA Consent CRZ EC-monitoring MOEF RO certification.</p>
+                            <button type="button" class="btn btn-outline-success">Read More</button>
+                        </div>
+                    </div>
+                </div>
+            </a>
+            <a href="/aboutUs/#expertise">
+                <div class="col zoom">
+                    <div class="h-100">
+                        <div class="card-body">
+                            <i class="fas fa-graduation-cap" id="homeicon"></i>
+                            <h5 class="card-title">Our Expertise</h5>
+                            <p class="card-text">To do Environmental Clearance & Environmental Impact Assisment study.</p>
+                            <button type="button" class="btn btn-outline-success">Read More</button>
+                        </div>
+                    </div>
+                </div>
+            </a>
+            <a href="/aboutUs/#commitment">    
+                <div class="col zoom">
+                    <div class="h-100">
+                        <div class="card-body">
+                            <i class="far fa-handshake" id="homeicon"></i>
+                            <h5 class="card-title">Commitments</h5>
+                            <p class="card-text">We provide technical support and quality service.</p>
+                            <button type="button" class="btn btn-outline-success">Read More</button>
+                        </div>
+                    </div>
+                </div>
+            </a>
+        </div>
+        </center>
+
+        <div style="background-color: #0F2027; color: white; padding-bottom:3rem;">
+            <center class="head"><h1 style="color: rgb(192,0,0); padding-left: 4rem;">
+                Contact Us <i class="fas fa-phone"></i></h1>
+            </center>
             <center>
                 <ul>
                     <li>
@@ -86,7 +112,7 @@
                     </li>
                 </ul>
             </center>
-            <p style="text-align: right; padding-right:2rem;">
+            <p style="text-align: right; padding-right:2rem; font-size: 1rem;">
                 Website Created By: <br>
                 Rutuja Ambhore <br>
                 Email id : rutujaamb@gmail.com <br>
