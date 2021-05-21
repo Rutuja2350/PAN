@@ -13,22 +13,24 @@ cloudinary.config({
 // cloudinary.uploader.upload("my_image.jpg", function(error, result) {console.log(result, error)});
 
 app.use(express.static(__dirname + "/public"));
-app.set('view engine','ejs');
+
+app.set('view engine','html');
+app.engine('html', require('ejs').renderFile);
 
 app.get("/", function(req, res){
-    res.render("home");
+    res.render("../index");
 });
 
 app.get("/contactUs", function(req, res){
-    res.render("contactus");
+    res.render("contactus.ejs");
 });
 
 app.get("/aboutUs", function(req, res){
-    res.render("aboutus");
+    res.render("aboutus.ejs");
 });
 
 app.get("/associates", function(req, res){
-    res.render("associates");
+    res.render("associates.ejs");
 });
 
 var port = process.env.PORT || 5000;
