@@ -22,15 +22,15 @@ app.get("/", function(req, res){
 });
 
 app.get("/contactUs", function(req, res){
-    res.render("contactus.ejs");
+    res.render("../contactus.ejs");
 });
 
 app.get("/aboutUs", function(req, res){
-    res.render("aboutus.ejs");
+    res.render("../aboutus.ejs");
 });
 
 app.get("/associates", function(req, res){
-    res.render("associates.ejs");
+    res.render("../associates.ejs");
 });
 
 var port = process.env.PORT || 5000;
