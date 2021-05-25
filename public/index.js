@@ -14,8 +14,8 @@ cloudinary.config({
 
 app.use(express.static(__dirname + "/public"));
 
-app.set('view engine','html');
-app.engine('html', require('ejs').renderFile);
+// app.set('view engine','html');
+// app.engine('html', require('ejs').renderFile);
 
 app.get("/", function(req, res){
     res.render("../index");
@@ -30,7 +30,7 @@ app.get("/aboutUs", function(req, res){
 });
 
 app.get("/associates", function(req, res){
-    res.render("../associates.ejs");
+    res.render("../associates");
 });
 
 var port = process.env.PORT || 5000;
