@@ -12,25 +12,25 @@ cloudinary.config({
 });
 // cloudinary.uploader.upload("my_image.jpg", function(error, result) {console.log(result, error)});
 
+app.set("view engine", "ejs");
 app.use(express.static(__dirname + "/public"));
 
-// app.set('view engine','html');
 // app.engine('html', require('ejs').renderFile);
 
 app.get("/", function(req, res){
-    res.render("../index");
+    res.render("home");
 });
 
 app.get("/contactUs", function(req, res){
-    res.render("../contactus.ejs");
+    res.render("contactus");
 });
 
 app.get("/aboutUs", function(req, res){
-    res.render("../aboutus.ejs");
+    res.render("aboutus");
 });
 
 app.get("/associates", function(req, res){
-    res.render("../associates");
+    res.render("associates");
 });
 
 var port = process.env.PORT || 5000;
