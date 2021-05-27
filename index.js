@@ -5,10 +5,8 @@ var express = require("express"),
 
 cloudinary.config({ 
     cloud_name: 'dnmsyfrgs', 
-    // api_key: process.env.API_KEY, 
-    // api_secret: process.env.API_SECRET
-    api_key: 161254976579369, 
-    api_secret: "VKnePa0tZcd57PTOhfvuW2N8wEc"
+    api_key: process.env.API_KEY, 
+    api_secret: process.env.API_SECRET
 });
 // cloudinary.uploader.upload("my_image.jpg", function(error, result) {console.log(result, error)});
 
